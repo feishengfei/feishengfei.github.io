@@ -22,6 +22,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 #twitter_username: jekyllrb
 github_username:  feishengfei
 linkedin_username:  frank-zhou-776a0890
+author: Frank Zhou
+show_excerpts: true
 
 # Build settings
 markdown: kramdown

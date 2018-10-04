@@ -8,9 +8,9 @@ Here is the stat.
 ![ubuntu_usage](https://4bds6hergc-flywheel.netdna-ssl.com/wp-content/uploads/2018/06/ubuntu-usage-infographic-revised.png)
 
 And here is my `ubuntu-report` result.
-```
-frankzhou@fx:~/github/feishengfei.io$ ubuntu-report
 This is the result of hardware and optional installer/upgrader that we collected:
+
+```json
 {
   "Version": "18.04",
   "OEM": {
@@ -89,6 +89,4 @@ This is the result of hardware and optional installer/upgrader that we collected
     }
   }
 }
-Do you agree to report this? [y (send metrics)/n (send opt out message)/Q (quit)] y
-frankzhou@fx:~/github/feishengfei.io$
 ```
