@@ -16,11 +16,13 @@
 title: Home
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-    Today is the first day of the rest of my life.
-baseurl: "http://feishengfei.github.io"
-#twitter_username: jekyllrb
-github_username:  feishengfei
-#linkedin_username:  frank-zhou-776a0890
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl:
+url: https://feishengfei.github.io
+twitter_username: mmistakes
+github_username: mmistakes
 minimal_mistakes_skin: dark
 
 # Build settings
@@ -70,5 +72,5 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
