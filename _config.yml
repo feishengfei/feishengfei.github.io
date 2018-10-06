@@ -23,7 +23,7 @@ baseurl:
 url: https://feishengfei.github.io
 twitter_username: mmistakes
 github_username: mmistakes
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: default
 
 # Build settings
 markdown: kramdown
@@ -48,8 +48,16 @@ author:
   name   : "Frank Zhou"
   avatar : "/assets/images/frankzhou.jpg"
   bio    : ""
+  location         : "Xi'an China"
   email  : feishengfei@126.com
   #  uri    : "https://mademistakes.com"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/feishengfei"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
