@@ -14,22 +14,39 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Home
-email: feishengfei@126.com
+email:
 description: >- # this means to ignore newlines until "baseurl:"
     Today is the first day of the rest of my life.
-baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "http://feishengfei.github.io"
 #twitter_username: jekyllrb
 github_username:  feishengfei
-linkedin_username:  frank-zhou-776a0890
-author: Frank Zhou
-show_excerpts: true
+#linkedin_username:  frank-zhou-776a0890
+minimal_mistakes_skin: dark
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
+
+author:
+  name   : "Frank Zhou"
+  avatar : "/assets/images/frankzhou.jpg"
+  bio    : ""
+  email  : feishengfei@126.com
+  #  uri    : "https://mademistakes.com"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -42,3 +59,16 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true

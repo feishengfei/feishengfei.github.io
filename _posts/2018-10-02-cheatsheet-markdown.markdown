@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "cheatsheet markdown"
 date: "2018-10-02 08:21:34 +0800"
 ---

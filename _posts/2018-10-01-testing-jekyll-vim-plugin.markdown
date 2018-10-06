@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Testing jekyll vim plugin"
 date: "2018-10-01 16:51:34 +0800"
 author: parkr

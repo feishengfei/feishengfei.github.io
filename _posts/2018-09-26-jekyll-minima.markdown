@@ -1,7 +1,6 @@
 ---
 title:  "Jekyll theme minima"
 date:   2018-09-26 00:09:01 +0800
-layout: default
 ---
 # This is the initial post, just for test.
 I use jekyll minima theme README.md as demo, which also tell the theme template this site use.😀
