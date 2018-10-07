@@ -1,6 +1,8 @@
 ---
 title:  "About how to git clone source code form qualcomm official site"
 date:   2018-09-28 17:18:39 +0800
+category: "work"
+tags: [git]
 ---
 
 Before `git clone`, you need to set *http.followRedirects* as *true*.

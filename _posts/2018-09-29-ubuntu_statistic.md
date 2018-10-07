@@ -1,6 +1,8 @@
 ---
 title:  "Statistic on ubuntu18.04"
 date:   2018-09-29 17:18:39 +0800
+category: "tech"
+tags: [ubuntu]
 ---
 Here is the stat.
 
