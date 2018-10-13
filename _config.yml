@@ -103,9 +103,32 @@ analytics:
 author:
   name             : "Frank Zhou"
   avatar           : "/assets/images/frankzhou.jpg"
-  bio              : ""
-  location         : "Xi'an China"
+  bio              : 
+  location         : "XA China"
   email            : "feishengfei@126.com"
+  uri              : "https://feishengfei.github.io"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : *facebook
+  foursquare       :
+  github           : "feishengfei"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : "frank-zhou-776a0890"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : *twitter
+  vine             :
+  weibo            : "feishengfei"
+  xing             :
+  youtube          :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -113,6 +136,8 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/feishengfei"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-github"
 
 # Site Footer
 footer:
@@ -120,6 +145,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/feishengfei"
+    - label: "IN"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/frank-zhou-776a0890/"
+    - label: "weibo"
+      icon: "fab fa-fw fa-weibo"
+      url: "https://www.weibo.com/feishengfei/"
 
 
 # Reading Files
@@ -261,3 +292,48 @@ defaults:
       comments: true
       share: false
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _pets
+  - scope:
+      path: ""
+      type: pets
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true

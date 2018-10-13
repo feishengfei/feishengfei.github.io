@@ -17,9 +17,9 @@ rb(){
             mkdir ~/log/ -p
         fi
         if [ 2 -eq $# ]; then
-            rebake $1 -c $2 -vDD 2>&1 |tee ~/log/bb_${1}__${2}${DATE}.log | grep -e ^NOTE |grep -e \ do_[a-z_]*[\ \:] -e Failed
+            rebake $1 -c $2 -vDD 2>&1 |tee ~/log/bb_${1}__${2}${DATE}.log | grep -e ^NOTE -e ^ERROR|grep -e \ do_[a-z_]*[\ \:] -e Failed -e ^ERROR -e "not found"
         elif [ 1 -eq $# ]; then
-            rebake $1 -vDD 2>&1 |tee ~/log/bb_${1}__default${DATE}.log | grep ^NOTE |grep -e \ do_[a-z_]*[\ \:] -e Failed
+            rebake $1 -vDD 2>&1 |tee ~/log/bb_${1}__default${DATE}.log | grep -e ^NOTE -e ^ERROR|grep -e \ do_[a-z_]*[\ \:] -e Failed -e ^ERROR -e "not found"
         else
             echo -e 'rb <RECIPE_NAME> <TASK_NAME>'
             echo -e '[usage] rb for short to rebake your RECIPE or RECIPE+TASK with log supported\n'
@@ -35,9 +35,9 @@ bb(){
             mkdir ~/log/ -p
         fi
         if [ 2 -eq $# ]; then
-            bitbake $1 -c $2 -vDD 2>&1 |tee ~/log/bb_${1}__${2}${DATE}.log | grep ^NOTE |grep -e \ do_[a-z_]*[\ \:] -e Failed
+            bitbake $1 -c $2 -vDD 2>&1 |tee ~/log/bb_${1}__${2}${DATE}.log | grep -e ^NOTE -e ^ERROR |grep -e \ do_[a-z_]*[\ \:] -e Failed -e ^ERROR -e "not found"
         elif [ 1 -eq $# ]; then
-            bitbake $1 -vDD 2>&1 |tee ~/log/bb_${1}__default${DATE}.log | grep ^NOTE |grep -e \ do_[a-z_]*[\ \:] -e Failed
+            bitbake $1 -vDD 2>&1 |tee ~/log/bb_${1}__default${DATE}.log | grep -e ^NOTE -e ^ERROR |grep -e \ do_[a-z_]*[\ \:] -e Failed -e ^ERROR -e "not found"
         else
             echo -e 'bb <RECIPE_NAME> <TASK_NAME>'
             echo -e '[usage] bb for short to bitbake your RECIPE or RECIPE+TASK with log supported\n'
