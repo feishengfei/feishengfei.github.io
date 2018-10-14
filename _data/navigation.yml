@@ -1,5 +1,14 @@
 # main links
 main:
+  - title: "Life"
+    url: /categories/life
+
+  - title: "Work"
+    url: /categories/work
+
+  - title: "Kids"
+    url: /categories/kids
+
   - title: "Categories"
     url: /categories/
 
