@@ -5,6 +5,7 @@ toc: true
 category: work
 tags: [yocto, bitbake]
 classes: wide
+excerpt: An introduction about YOCTO project and overview of source code.
 ---
 ## Reference
 
@@ -166,3 +167,6 @@ BitBake is a make-like build tool. BitBake recipes specify how a particular pack
 **Image**: A binary form of a Linux distribution (operating system) intended to be loaded onto a device.
 
 
+<br>
+This work is licensed under a **[Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/)**. ![Attribution 4.0 International](https://licensebuttons.net/l/by/4.0/88x31.png)
+{: .notice}

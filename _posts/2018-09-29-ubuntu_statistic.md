@@ -3,6 +3,7 @@ title:  "Statistic on ubuntu18.04"
 date:   2018-09-29 17:18:39 +0800
 category: "tech"
 tags: [ubuntu]
+expcerpt: ubuntu report of my laptop
 ---
 Here is the stat.
 

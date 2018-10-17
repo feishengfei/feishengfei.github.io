@@ -3,6 +3,7 @@ title: "此心安处是吾乡"
 date: "2018-10-14 23:10:17 +0800"
 category: "life"
 tags: [poem]
+excerpt: "一首关于家乡定义的诗"
 ---
 
 ## 原文

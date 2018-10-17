@@ -4,6 +4,7 @@ date: "2018-10-09 14:00:28 +0800"
 category: work
 tags: [bitbake, yocto]
 classes: wide
+excerpt: 本文提供了两个预定义的bash函数，方便在使用bitbake编译时，截取关键的NOTE开头的信息，并将安整的日志保存在`~/log/`中，以供日后查询。
 ---
 
 如题，bitbake在开启`-vDD`之后的输出较多，且开启调试编译之后如何保存这些日志也是较为麻烦的，为了提高效率，特提供写在bashrc中的两个工具如下。
@@ -47,3 +48,7 @@ bb(){
 ```
 
 其中rb代表rebake，即cleanall指定recipe之后指定某个recipe的task进行编译，或不指定task而进行默认编译；相应的，bb代表bitbake，即不进行cleanall而直接编译。
+
+<br>
+This work is licensed under a **[Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/)**. ![Attribution 4.0 International](https://licensebuttons.net/l/by/4.0/88x31.png)
+{: .notice}

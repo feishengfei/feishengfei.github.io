@@ -1,8 +1,11 @@
 ---
 title: "sight words for preschool children"
 date: "2018-10-07 23:13:47 +0800"
-category: "life"
+category: 
+  - life
+  - kids
 tags: [book]
+excerpt: "Video list for children: Alphabet, number, shape, color."
 ---
 You can search following keywords on iqiyi.
 

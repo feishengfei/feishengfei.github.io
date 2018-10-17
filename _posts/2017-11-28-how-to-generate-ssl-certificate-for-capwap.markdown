@@ -4,6 +4,7 @@ date: "2017-11-28 23:59:35 +0800"
 toc: true
 categories: [work]
 tags: [ssl, pem, openssl]
+excerpt: This article provide certificate generation details for capwap
 ---
 
 ## Revision
@@ -229,3 +230,6 @@ cat ac.pem server_rsa_private.key > server.pem
 
 3. Rename ca.pem into 'root.pem' which we are using.
 
+<br>
+This work is licensed under a **[Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/)**. ![Attribution 4.0 International](https://licensebuttons.net/l/by/4.0/88x31.png)
+{: .notice}

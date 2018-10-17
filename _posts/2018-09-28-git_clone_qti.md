@@ -3,6 +3,7 @@ title:  "About how to git clone source code form qualcomm official site"
 date:   2018-09-28 17:18:39 +0800
 category: "work"
 tags: [git]
+excerpt: this article provide detail of setting on cloning qualcomm source code
 ---
 
 Before `git clone`, you need to set *http.followRedirects* as *true*.
@@ -18,3 +19,7 @@ remote: Counting objects: 106627, done.
 remote: Compressing objects: 100% (86905/86905), done.
 ...
 ```
+
+<br>
+This work is licensed under a **[Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/)**. ![Attribution 4.0 International](https://licensebuttons.net/l/by/4.0/88x31.png)
+{: .notice}

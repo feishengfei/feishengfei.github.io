@@ -4,6 +4,7 @@ date: "2018-10-09 09:38:45 +0800"
 category: work
 tags: [python, ruby]
 toc: true
+excerpt: "About encoding on python & ruby"
 ---
 
 ## For Python
