@@ -1,0 +1,6 @@
+Scott Thornton:
+    name        : "Scott Thornton"
+    links:
+        - label: "Website"
+          icon: "fas fa-fw fa-link"
+          url: "https://www.microcontrollertips.com/author/scott-thornton/"
